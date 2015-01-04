@@ -5,25 +5,6 @@
 	xmlns:flexlib="http://code.google.com/p/flexlib/"
 	creationComplete="_init()"  width="100%" height="100%" xmlns:mashupBuild="mashupBuild.*">
 
-<!--
-DEMO LEVEL 2:
-The purpose of this demo is to explain the creating a simple graph with controls and events.
-
-From LEVEL 1
-1.) Using an XML data source
-2.) Initiating a graph
-3.) Setting a layouter
-
-LEVEL 2
-4.) Setting an edge line style parameter (color) based on data
-5.) Specifying a node renderer (colorSizeNodeRenderer.mxml) which will color and size based on data
-6.) Customizing an edge label
-
-LEVEL 3
-7.) Degrees of Separation Control
-8.) Node click, show details event
--->
-
 	<mx:Script>
 		<![CDATA[
 			import appSource.AppViewManager;
