@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:mx="http://www.adobe.com/2006/mxml" width="100%" height="100%">
+	<mx:HBox horizontalAlign="center" width="100%" height="100%" >
+		<mx:VBox>
+			<mx:HBox>
+				<mx:Label text="name" width="50" />
+				<mx:TextInput id="appName" width="250" />				
+			</mx:HBox>
+			<mx:HBox>
+				<mx:Label text="shortDesc" width="50" />
+				<mx:TextArea id="shortDesc" width="250" height="30" />				
+			</mx:HBox>
+			<mx:HBox>
+				<mx:Label text="longDesc" width="50" />
+				<mx:TextArea id="longDesc" width="250" height="100" />					
+			</mx:HBox>		
+		</mx:VBox>		
+	</mx:HBox>
+</mx:Canvas>
