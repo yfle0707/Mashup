@@ -1,0 +1,12 @@
+!.gitignore
+.metadata/
+.settings/
+
+bin/
+bin-release/
+recyled/
+org/
+
+.actionScriptProperties
+.flexProperties
+.project
