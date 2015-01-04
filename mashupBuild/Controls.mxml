@@ -12,9 +12,9 @@
 	<![CDATA[
 
 			import org.un.cava.birdeye.ravis.graphLayout.visual.VisualGraph;
-		     [Bindable]
+		        [Bindable]
 			private var _vgraph:VisualGraph;
-			 public function set vgraph(v:VisualGraph):void {
+			public function set vgraph(v:VisualGraph):void {
 				_vgraph = v;
 			}
 			public function get vgraph( ):VisualGraph {
